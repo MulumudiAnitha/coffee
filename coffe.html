@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: orange;
+        }
+        nav ul li{
+            display: inline;
+             padding: 20px;
+        }
+        nav ul li a{
+            color: black;
+            text-decoration: none;
+        }
+        #About img{
+            border-radius: 15%;
+         }
+         button.Learnmore{
+            background-color: blue;
+         }
+         button.Learnmore:hover{
+            background-color: green;
+         }
+         nav ul li a:hover{
+            text-decoration: underline;
+
+         } 
+          .grid1{
+            display: grid;
+         grid-template-columns: auto auto auto;
+         padding: 10px;
+         background-color: orange;
+          width: 1000px;
+         height: 600px;
+         }
+         .grid-item1{
+            background-color: orange;
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            width: 200px;
+            height: 200px;
+        }
+        #Menu{
+            text-align: center;
+            padding: 30px 3px 10px 10px;
+        } 
+        
+      #Products{
+            text-align: center;
+        } 
+        .grid2{
+            display: grid;
+         grid-template-columns: auto auto auto;
+         background-color: orange;
+          width: 1000px;
+         height: 400px;
+
+        }
+        .grid-item2{
+        background-color: orange;
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            width: 400px;
+            height: 400px;
+            
+
+        }
+        #Review{
+            padding-top: 30px;
+            text-align: center;
+        }
+        .grid3{
+            display: grid;
+         grid-template-columns: auto auto auto;
+         background-color: orange;
+          width: 1000px;
+         height: 300px;
+        }
+        .grid-item3{
+        background-color: orange;
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+            width: 400px;
+            height: 300px;
+        }
+        #Contact{
+            padding-top: 30px;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+        <li><img src="coffe logo.jpg"  width="50px" height="50px"></li>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Menu">Menu</a></li>
+        <li><a href="#Products">Products</a></li>
+        <li><a href="#Review">Review</a></li>
+        <li><a href="#Contact">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="Home">
+            <img src="coffe f.jpg" width="1310px" height="700px">
+
+        </section>
+        <section id="About">
+            <h1><b>ABOUT US</b></h1>
+            <div class="Real">
+            <div class="img">
+            <img src="coffe bean.jpg" width="500px" height="500px">
+            </div>
+            </div>
+            <h2>What Makes Caribou Special?</h2>
+            <p>We Offer 100% Clean Label Beverages Using Only Real Ingredients – No Artificial Sweeteners <br></br>And No Artificial Coloring. We Source Only Cage-Free Eggs For Our Primary Egg Supply (Eggs Used In Our All-Day Breakfast Menu) In The United States.</p>
+        </section>
+         <section id="Menu">
+            <h1>STAR MENU</h1>
+            <div class="grid1">
+                <div class="grid-item1"><img src="coffee n.jpg" width="100px" height="100px">
+                    <h3><b>Nitro cofee</b></h3>
+                    <div class="price">Rs.350 <sub><del>500</del></sub></div>
+                    <a href="" class="button">Add to cart</a></div>
+                <div class="grid-item1"><img src="coffee s.jpg" width="100px" height="100px">
+                    <h3><b>Salted Caremel Budino</b></h3>
+                    <div class="price">Rs.550 <sub><del>700</del></sub></div>
+                    <a href="" class="button">Add to cart</a></div>
+                <div class="grid-item1"><img src="coffee m.png" width="100px" height="100px">
+                    <h3><b>Mint Condition Mocha</b></h3>
+                    <div class="price">Rs.1300 <sub><del>1700</del></sub></div>
+                    <a href="" class="button">Add to cart</a></div>
+                <div class="grid-item1"><img src="coffee b.jpg" width="100px" height="100px">
+                    <h3><b>Cabin Bar Mocha</b></h3>
+                    <div class="price">Rs.700 <sub><del>900</del></sub></div>
+                    <a href="" class="button">Add to cart</a></div>
+                <div class="grid-item1"><img src="coffee d.jpg" width="100px" height="100px">
+                    <h3><b>chocolate-Donuts</b></h3>
+                    <div class="price">Rs.700 <sub><del>1050</del></sub></div>
+                    <a href="" class="button">Add to cart</a></div>
+            </section>
+            <section id="Products">
+                <h1>OUR PRODUCTS</h1>
+                <div class="grid2">
+                    <div class="grid-item2"><img src="cold brew.jpg" width="300px" height="250px">
+                    <h2><b>COLD BREW</b></h2>
+                    <div class="price">Rs.4500<sub><del>6000</del></sub></div></div>
+                    <div class="grid-item2"><img src="CARIBOU-BLEND.jpg" width="300px" height="250px">
+                    <h2><b>CARIBOU-BLEND</b></h2>
+                    <div class="price">Rs.5000<sub><del>6600</del></sub></div></div>
+                    <div class="grid-item2"><img src="iced coffee.png" width="300px" height="250px">
+                    <h2><b>ICED COFFEE</b></h2>
+                    <div class="price">Rs.2300<sub><del>4000</del></sub></div></div>
+                    </div>
+                </section>
+            <section id="Review">
+                <h1>CUSTOMER'S REVIEW</h1>
+                <div class="grid3">
+                <div class="grid-item3"><img src="VIRAT1.jpg"width="300px" height="250px">
+                    <h2>Nice</h2>
+                </div>
+                <div class="grid-item3"><img src="DHONI.jpg"width="300px" height="250px">
+                    <h2>Excellent</h2></div>
+                <div class="grid-item3"><img src="VIJAY.jpg"width="300px" height="250px">
+                    <h2>perfect</h2></div>
+                </div>
+                </section>
+                <section id="Contact">
+                    <center><h1>CONTACT US:-</h1></center>
+                    <div class="container">
+                    <center><a href="https://www.instagram.com/cariboucoffee/"target="_blank" class="fab fa-instagram"><img src="instagram.jpg"width="80px"height="80px"></a>
+                            <a href="https://www.facebook.com/cariboucoffee/"target="_blank" class="fab fa-facebook"><img src="facebook.png"width="80px"height="80px"></a>
+                            <a href="https://twitter.com/cariboucoffee?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"target="_blank" class="fab fa-twitter"><img src="twitter.png"width="80px"height="80px"></a>
+
+                              </center> 
+                            
+                    </div>
+                </section>
+                <br>
+                <section id="c">
+                 <div class="container1">
+                      <footer>
+                  <center><p>&copy; 2022 caribou coffee™. All Rights Reserved.</p></center>
+                </footer>
+             </div>
+                </section>
+
+    </main>
+    
+</body>
+</html>
